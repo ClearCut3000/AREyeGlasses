@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3607A60E271632DF00558362 /* ARGlasses.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 3607A60D2715D43900558362 /* ARGlasses.rcproject */; };
 		366738CB2710B55F008F5B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366738CA2710B55F008F5B11 /* AppDelegate.swift */; };
 		366738CD2710B55F008F5B11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366738CC2710B55F008F5B11 /* ContentView.swift */; };
 		366738D12710B563008F5B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366738D02710B563008F5B11 /* Assets.xcassets */; };
 		366738D42710B563008F5B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366738D32710B563008F5B11 /* Preview Assets.xcassets */; };
+		36778CE127170AE10024D5AE /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = 36778CE027170AE10024D5AE /* Screenshots */; };
+		36A8B0922716B863007711F3 /* Glasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8B0912716B863007711F3 /* Glasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3607A60D2715D43900558362 /* ARGlasses.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ARGlasses.rcproject; sourceTree = "<group>"; };
 		366738C72710B55F008F5B11 /* AREyeGlasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AREyeGlasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		366738CA2710B55F008F5B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		366738CC2710B55F008F5B11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		366738D02710B563008F5B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366738D32710B563008F5B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36778CE027170AE10024D5AE /* Screenshots */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Screenshots; sourceTree = SOURCE_ROOT; };
+		36A8B0912716B863007711F3 /* Glasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			children = (
 				366738CA2710B55F008F5B11 /* AppDelegate.swift */,
 				366738CC2710B55F008F5B11 /* ContentView.swift */,
+				36A8B0912716B863007711F3 /* Glasses.swift */,
 				366738D02710B563008F5B11 /* Assets.xcassets */,
 				366738D22710B563008F5B11 /* Preview Content */,
+				3607A60D2715D43900558362 /* ARGlasses.rcproject */,
+				36778CE027170AE10024D5AE /* Screenshots */,
 			);
 			path = AREyeGlasses;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				366738D42710B563008F5B11 /* Preview Assets.xcassets in Resources */,
+				36778CE127170AE10024D5AE /* Screenshots in Resources */,
 				366738D12710B563008F5B11 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3607A60E271632DF00558362 /* ARGlasses.rcproject in Sources */,
 				366738CD2710B55F008F5B11 /* ContentView.swift in Sources */,
+				36A8B0922716B863007711F3 /* Glasses.swift in Sources */,
 				366738CB2710B55F008F5B11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -273,6 +285,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -304,6 +317,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
